@@ -1,4 +1,4 @@
-module go-bmsdk
+module go-lmsdk
 
 go 1.18
 

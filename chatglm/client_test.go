@@ -1,11 +1,12 @@
 package chatglm
 
 import (
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
-const TestAPIKey = "d7c2dfda469280506236c8ad1c2178b2.def7WeLWt4ebpdog"
+const TestAPIKey = "d7c2dxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 func TestNew(t *testing.T) {
 	cfg := Config{

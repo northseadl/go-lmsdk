@@ -111,11 +111,4 @@ func (c *ChatGLM) AsyncInvokeTaskQuery(model string, taskID string) (response *I
 	return response, err
 }
 
-// SSEInvoke HTTP SSE调用模型
-func (c *ChatGLM) SSEInvoke(model string, req InvokeRequest) (response *InvokeSyncResponse, err error) {
-	err = c.helper.Df().Method(http.MethodPost).
-		Uri(fmt.Sprintf(sseUriFormat, model)).
-		Json(req).
-		Result(&response)
-	return response, err
-}
+// todo SSEInvoke HTTP SSE调用模型
