@@ -1,4 +1,4 @@
-module github.com/northseadl/lmsdk
+module github.com/northseadl/go-lmsdk
 
 go 1.18
 
